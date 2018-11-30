@@ -38,6 +38,6 @@ plt.pie(sizes, explode=explode, colors=colors, autopct='%1.1f%%', shadow=True, s
 
 plt.axis('equal')
 plt.legend(labels, loc=1)
-plt.title("Medal won by men and women")
+plt.title("Medal won by men and women(Pie)")
 plt.xlabel("")
 plt.show()

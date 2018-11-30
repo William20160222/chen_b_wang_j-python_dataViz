@@ -28,5 +28,5 @@ print('processed', line_count, 'row of data')
 name_list = ['men', 'women']
 num_list = [len(men),len(women)]
 plt.bar(range(len(num_list)), num_list, tick_label = name_list, color='rgb')
-plt.title("total medals won by men and women")
+plt.title("Medals won by men and women(Bar)")
 plt.show()
